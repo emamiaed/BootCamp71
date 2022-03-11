@@ -1,0 +1,15 @@
+E:\MyProjects\HomeWork02-Q1\HomeWork02-Q1\obj\Debug\net6.0\HomeWork02-Q1.csproj.AssemblyReference.cache
+E:\MyProjects\HomeWork02-Q1\HomeWork02-Q1\obj\Debug\net6.0\HomeWork02-Q1.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyProjects\HomeWork02-Q1\HomeWork02-Q1\obj\Debug\net6.0\HomeWork02-Q1.AssemblyInfoInputs.cache
+E:\MyProjects\HomeWork02-Q1\HomeWork02-Q1\obj\Debug\net6.0\HomeWork02-Q1.AssemblyInfo.cs
+E:\MyProjects\HomeWork02-Q1\HomeWork02-Q1\obj\Debug\net6.0\HomeWork02-Q1.csproj.CoreCompileInputs.cache
+E:\MyProjects\HomeWork02-Q1\HomeWork02-Q1\bin\Debug\net6.0\HomeWork02-Q1.exe
+E:\MyProjects\HomeWork02-Q1\HomeWork02-Q1\bin\Debug\net6.0\HomeWork02-Q1.deps.json
+E:\MyProjects\HomeWork02-Q1\HomeWork02-Q1\bin\Debug\net6.0\HomeWork02-Q1.runtimeconfig.json
+E:\MyProjects\HomeWork02-Q1\HomeWork02-Q1\bin\Debug\net6.0\HomeWork02-Q1.dll
+E:\MyProjects\HomeWork02-Q1\HomeWork02-Q1\bin\Debug\net6.0\ref\HomeWork02-Q1.dll
+E:\MyProjects\HomeWork02-Q1\HomeWork02-Q1\bin\Debug\net6.0\HomeWork02-Q1.pdb
+E:\MyProjects\HomeWork02-Q1\HomeWork02-Q1\obj\Debug\net6.0\HomeWork02-Q1.dll
+E:\MyProjects\HomeWork02-Q1\HomeWork02-Q1\obj\Debug\net6.0\ref\HomeWork02-Q1.dll
+E:\MyProjects\HomeWork02-Q1\HomeWork02-Q1\obj\Debug\net6.0\HomeWork02-Q1.pdb
+E:\MyProjects\HomeWork02-Q1\HomeWork02-Q1\obj\Debug\net6.0\HomeWork02-Q1.genruntimeconfig.cache
