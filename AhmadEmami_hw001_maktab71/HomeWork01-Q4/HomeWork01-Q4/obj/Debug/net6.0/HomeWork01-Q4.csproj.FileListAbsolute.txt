@@ -1,0 +1,15 @@
+F:\BootCamp\HomeWork01-Q4\HomeWork01-Q4\bin\Debug\net6.0\HomeWork01-Q4.exe
+F:\BootCamp\HomeWork01-Q4\HomeWork01-Q4\bin\Debug\net6.0\HomeWork01-Q4.deps.json
+F:\BootCamp\HomeWork01-Q4\HomeWork01-Q4\bin\Debug\net6.0\HomeWork01-Q4.runtimeconfig.json
+F:\BootCamp\HomeWork01-Q4\HomeWork01-Q4\bin\Debug\net6.0\HomeWork01-Q4.dll
+F:\BootCamp\HomeWork01-Q4\HomeWork01-Q4\bin\Debug\net6.0\ref\HomeWork01-Q4.dll
+F:\BootCamp\HomeWork01-Q4\HomeWork01-Q4\bin\Debug\net6.0\HomeWork01-Q4.pdb
+F:\BootCamp\HomeWork01-Q4\HomeWork01-Q4\obj\Debug\net6.0\HomeWork01-Q4.csproj.AssemblyReference.cache
+F:\BootCamp\HomeWork01-Q4\HomeWork01-Q4\obj\Debug\net6.0\HomeWork01-Q4.GeneratedMSBuildEditorConfig.editorconfig
+F:\BootCamp\HomeWork01-Q4\HomeWork01-Q4\obj\Debug\net6.0\HomeWork01-Q4.AssemblyInfoInputs.cache
+F:\BootCamp\HomeWork01-Q4\HomeWork01-Q4\obj\Debug\net6.0\HomeWork01-Q4.AssemblyInfo.cs
+F:\BootCamp\HomeWork01-Q4\HomeWork01-Q4\obj\Debug\net6.0\HomeWork01-Q4.csproj.CoreCompileInputs.cache
+F:\BootCamp\HomeWork01-Q4\HomeWork01-Q4\obj\Debug\net6.0\HomeWork01-Q4.dll
+F:\BootCamp\HomeWork01-Q4\HomeWork01-Q4\obj\Debug\net6.0\ref\HomeWork01-Q4.dll
+F:\BootCamp\HomeWork01-Q4\HomeWork01-Q4\obj\Debug\net6.0\HomeWork01-Q4.pdb
+F:\BootCamp\HomeWork01-Q4\HomeWork01-Q4\obj\Debug\net6.0\HomeWork01-Q4.genruntimeconfig.cache
