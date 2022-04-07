@@ -1,0 +1,15 @@
+F:\BootCamp\AhmadEmami_hw005_maktab71\AhmadEmami_hw005_maktab71\bin\Debug\net6.0\AhmadEmami_hw005_maktab71.exe
+F:\BootCamp\AhmadEmami_hw005_maktab71\AhmadEmami_hw005_maktab71\bin\Debug\net6.0\AhmadEmami_hw005_maktab71.deps.json
+F:\BootCamp\AhmadEmami_hw005_maktab71\AhmadEmami_hw005_maktab71\bin\Debug\net6.0\AhmadEmami_hw005_maktab71.runtimeconfig.json
+F:\BootCamp\AhmadEmami_hw005_maktab71\AhmadEmami_hw005_maktab71\bin\Debug\net6.0\AhmadEmami_hw005_maktab71.dll
+F:\BootCamp\AhmadEmami_hw005_maktab71\AhmadEmami_hw005_maktab71\bin\Debug\net6.0\ref\AhmadEmami_hw005_maktab71.dll
+F:\BootCamp\AhmadEmami_hw005_maktab71\AhmadEmami_hw005_maktab71\bin\Debug\net6.0\AhmadEmami_hw005_maktab71.pdb
+F:\BootCamp\AhmadEmami_hw005_maktab71\AhmadEmami_hw005_maktab71\obj\Debug\net6.0\AhmadEmami_hw005_maktab71.csproj.AssemblyReference.cache
+F:\BootCamp\AhmadEmami_hw005_maktab71\AhmadEmami_hw005_maktab71\obj\Debug\net6.0\AhmadEmami_hw005_maktab71.GeneratedMSBuildEditorConfig.editorconfig
+F:\BootCamp\AhmadEmami_hw005_maktab71\AhmadEmami_hw005_maktab71\obj\Debug\net6.0\AhmadEmami_hw005_maktab71.AssemblyInfoInputs.cache
+F:\BootCamp\AhmadEmami_hw005_maktab71\AhmadEmami_hw005_maktab71\obj\Debug\net6.0\AhmadEmami_hw005_maktab71.AssemblyInfo.cs
+F:\BootCamp\AhmadEmami_hw005_maktab71\AhmadEmami_hw005_maktab71\obj\Debug\net6.0\AhmadEmami_hw005_maktab71.csproj.CoreCompileInputs.cache
+F:\BootCamp\AhmadEmami_hw005_maktab71\AhmadEmami_hw005_maktab71\obj\Debug\net6.0\AhmadEmami_hw005_maktab71.dll
+F:\BootCamp\AhmadEmami_hw005_maktab71\AhmadEmami_hw005_maktab71\obj\Debug\net6.0\ref\AhmadEmami_hw005_maktab71.dll
+F:\BootCamp\AhmadEmami_hw005_maktab71\AhmadEmami_hw005_maktab71\obj\Debug\net6.0\AhmadEmami_hw005_maktab71.pdb
+F:\BootCamp\AhmadEmami_hw005_maktab71\AhmadEmami_hw005_maktab71\obj\Debug\net6.0\AhmadEmami_hw005_maktab71.genruntimeconfig.cache
