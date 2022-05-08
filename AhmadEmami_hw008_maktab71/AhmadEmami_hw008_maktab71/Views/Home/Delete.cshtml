@@ -1,0 +1,12 @@
+﻿
+@model PersonModel
+<div class="alert alert-danger">
+    <h4 class="alert-heading">حذف شخص!</h4>
+    <p>
+       Do you really want to delete @Model.FName @Model.LName from list?
+    </p>
+    <form asp-controller="Home" asp-action="DeletePerson" method="post">
+        <input type="hidden" asp-for="Id"/>
+        <input type="submit" value="تایید"/>
+    </form>
+</div>

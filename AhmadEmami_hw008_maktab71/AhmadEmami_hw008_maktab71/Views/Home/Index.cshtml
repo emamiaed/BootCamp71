@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<PersonModel>
+
+<div class="text-center">
+    <h2 class="display-4">Person List</h2>
+</div>
+<table class="table table-hover table-light">
+    <thead>
+    <th>Row</th>
+    <th>ID</th>
+    <th>Full Name</th>
+    <th></th>
+    </thead>
+    @foreach (PersonModel i in Model)
+    {
+        <tr>
+            <td>
+             
+            </td>
+            <td>@i.Id</td>
+            <td>@i.FName @i.LName</td>
+            <td>
+                <a class="btn btn-danger" asp-controller="Home" asp-action="Delete" asp-route-id="@i.Id">Delete</a>
+            </td>
+        </tr>
+    }
+
+</table>

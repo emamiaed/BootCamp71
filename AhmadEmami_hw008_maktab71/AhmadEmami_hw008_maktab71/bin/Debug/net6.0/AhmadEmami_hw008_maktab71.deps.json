@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AhmadEmami_hw008_maktab71/1.0.0": {
+        "runtime": {
+          "AhmadEmami_hw008_maktab71.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AhmadEmami_hw008_maktab71/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
