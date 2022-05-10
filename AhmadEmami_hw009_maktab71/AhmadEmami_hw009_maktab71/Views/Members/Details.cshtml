@@ -1,0 +1,32 @@
+﻿@model Member
+
+<div class="card">
+    <h5 class="card-header">  مشاهده جزئیات عضو @Model.FirstName @Model.LastName</h5>
+    <div class="card-body">
+        <h5 class="card-title">@Model.FirstName @Model.LastName</h5>
+        <label for="Id" class="form-label">شناسه عضو</label>
+        <input type="text" class="form-control" asp-for="Id" readonly>
+        <br/>
+        <label for="NationalCode" class="form-label">کد ملی</label>
+        <input type="text" class="form-control" asp-for="NationalCode">
+        <br/>
+        <label for="BirthDate" class="form-label">تاریخ تولد</label>
+        <input type="text" class="form-control" asp-for="BirthDate" >
+        <br/>
+        <label for="PhoneNumber" class="form-label">شماره تماس</label>
+        <input type="text" class="form-control" asp-for="PhoneNumber" >
+        <br/>
+        <label for="MembershipTypeId" class="form-label">نوع عضویت</label>
+        <input type="text" class="form-control" asp-for="MembershipTypeId" >
+        <br/>
+        <label for="GenderId" class="form-label">جنسیت</label>
+        <input type="text" class="form-control" asp-for="GenderId" >
+        <br/>
+        <label for="RegisterDate" class="form-label">تاریخ عضویت</label>
+        <input type="text" class="form-control" asp-for="RegisterDate" >
+        <br/>
+
+        <a class="btn btn-light" asp-controller="Members" asp-action="Index">بازگشت به لیست</a>
+    </div>
+        
+</div>

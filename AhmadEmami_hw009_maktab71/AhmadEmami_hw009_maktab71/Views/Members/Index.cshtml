@@ -1,0 +1,41 @@
+@{
+    ViewData["Title"] = "صفحه اعضا : ";
+}
+@model List<Member>
+<div class="float-ent h2">
+    لیست اعضا
+</div>
+<div class="float-start">
+    <a class="btn btn-success" asp-controller="Members" asp-action="Create" >افزدون عضو جدید</a>
+</div>
+<table class="table table-hover table-light">
+    <thead>
+    <th>شناسه</th>
+    <th>نام</th>
+    <th>نام خانوادگی</th>
+    <th>کد ملی</th>
+    <th>تاریخ تولد</th>
+    <th>نوع عضویت</th>
+    <th>شماره تماس</th>
+    <th>جنسیت</th>
+    <th></th>
+    </thead>
+    @foreach(Member i in Model)
+    {
+        <tr>
+            <td>@i.Id</td>
+            <td>@i.FirstName</td>
+            <td>@i.LastName</td>
+            <td>@i.NationalCode</td>
+            <td>@i.BirthDate</td>
+            <td>@i.MembershipTypeId</td>
+            <td>@i.PhoneNumber</td>
+            <td>@i.GenderId</td>
+            <td>
+                <a class="btn btn-info" asp-controller="Members" asp-action="Details" asp-route-id="@i.Id">مشاهده</a>
+                <a class="btn btn-warning" asp-controller="Members" asp-action="Edit" asp-route-id="@i.Id"> ویرایش</a>
+                <a class="btn btn-danger" asp-controller="Members"asp-action="Delete" asp-route-id="@i.Id">حذف</a>
+            </td>
+        </tr> 
+    }
+</table>

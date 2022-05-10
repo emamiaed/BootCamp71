@@ -1,0 +1,47 @@
+﻿@model Member
+
+<h2 class="mb-3">
+    افزودن عضو جدید
+</h2>
+<form asp-controller="Members" asp-action="create" method="post">
+    <div class="mb-3">
+        <label for="Id" class="form-label">شناسه</label>
+        <input type="text" class="form-control" asp-for="Id" disabled>
+    </div>
+    <div class="mb-3">
+        <label for="FirstName" class="form-label">نام </label>
+        <input type="text" class="form-control" asp-for="FirstName" >
+    </div>
+      
+    <div class="mb-3">
+        <label for="LastName" class="form-label">نام خانوادگی</label>
+        <input type="text" class="form-control" asp-for="LastName">
+    </div>
+    <div class="mb-3">
+        <label for="NationalCode" class="form-label">کد ملی</label>
+        <input type="text" class="form-control" asp-for="NationalCode" >
+    </div>
+    <div class="mb-3">
+        <label for="BirthDate" class="form-label">تاریخ تولد</label>
+        <input type="text" class="form-control" asp-for="BirthDate" >
+    </div>
+    <div class="mb-3">
+        <label for="MembershipType" class="form-label">نوع عضویت</label>
+        <input type="text" class="form-control" asp-for="MembershipTypeId" >
+    </div>
+    <div class="mb-3">
+        <label for="PhoneNumber" class="form-label">شماره تماس</label>
+        <input type="text" class="form-control" asp-for="PhoneNumber" >
+    </div>
+    <div class="mb-3">
+        <label for="Gender" class="form-label">جنسیت</label>
+        <input type="text" class="form-control" asp-for="GenderId" >
+    </div>
+    <div class="mb-3">
+        <label for="RegisterDate" class="form-label">تاریخ عضویت</label>
+        <input type="text" class="form-control" asp-for="RegisterDate" disabled>
+    </div>
+    
+    <input type="submit" class="btn btn-success" value="ثبت">
+    <a class="btn btn-light" asp-controller="Members" asp-action="Index">بازگشت به لیست</a>
+</form>

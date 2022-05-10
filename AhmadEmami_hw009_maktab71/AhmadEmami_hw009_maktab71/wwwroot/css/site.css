@@ -1,0 +1,22 @@
+html {
+    font-family: "B Nazanin", Tahoma;
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-family: "B Nazanin", Tahoma;
+        font-size: 16px;
+    }
+}
+
+html {
+    font-family: "B Nazanin", Tahoma;
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: "B Nazanin", Tahoma;
+    margin-bottom: 60px;
+}
