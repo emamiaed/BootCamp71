@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Exam2\\Exam2\\Exam2.csproj": {}
+    "E:\\MyProjects\\Git\\BootCamp71\\Exam2\\Exam2\\Exam2.csproj": {}
   },
   "projects": {
-    "D:\\Exam2\\Exam2\\Exam2.csproj": {
+    "E:\\MyProjects\\Git\\BootCamp71\\Exam2\\Exam2\\Exam2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Exam2\\Exam2\\Exam2.csproj",
+        "projectUniqueName": "E:\\MyProjects\\Git\\BootCamp71\\Exam2\\Exam2\\Exam2.csproj",
         "projectName": "Exam2",
-        "projectPath": "D:\\Exam2\\Exam2\\Exam2.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Exam2\\Exam2\\obj\\",
+        "projectPath": "E:\\MyProjects\\Git\\BootCamp71\\Exam2\\Exam2\\Exam2.csproj",
+        "packagesPath": "C:\\Users\\A.Emami\\.nuget\\packages\\",
+        "outputPath": "E:\\MyProjects\\Git\\BootCamp71\\Exam2\\Exam2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\A.Emami\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

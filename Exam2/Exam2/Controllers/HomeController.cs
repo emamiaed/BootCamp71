@@ -45,15 +45,15 @@ namespace Exam2.Controllers
         public IActionResult create(Product product)
         {
             product.UserId = 1;
-            product.CreateDate = ToShamsi(product.CreateDate);
+            //product.CreateDate = ToShamsi(product.CreateDate);
             _repository.AddProduct(product);
             return RedirectToAction("Index");
         }
 
-        private DateTime ToShamsi(DateTime createDate)
-        {
-            throw new NotImplementedException();
-        }
+        //private DateTime ToShamsi(DateTime createDate)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
 
         public IActionResult Details(int id)
