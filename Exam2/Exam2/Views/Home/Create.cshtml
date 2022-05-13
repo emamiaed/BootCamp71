@@ -1,0 +1,42 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@using Exam2.Interfaces
+@namespace Exam2.Entities
+@model Product
+@{
+    ProductDbContext _repository = new ProductDbContext();
+}
+<h2 class="mb-3">
+    افزودن محصول جدید
+</h2>
+<form asp-controller="Home" asp-action="create" method="post">
+    <div class="mb-3">
+        <label for="Id" class="form-label">شناسه کالا</label>
+        <input type="text" class="form-control" asp-for="Id" disabled>
+    </div>
+    <div class="mb-3">
+        <label for="Name" class="form-label">نام کالا</label>
+        <input type="text" class="form-control" asp-for="Name" >
+    </div>
+      
+    <div class="mb-3">
+        <label for="Price" class="form-label">قیمت کالا</label>
+        <input type="text" class="form-control" asp-for="Price">
+    </div>
+    <div class="mb-3">
+        <label for="CreateDate" class="form-label"> تاریخ تولید</label>
+        <input type="text" class="form-control" asp-for="CreateDate" >
+    </div>
+    <div class="mb-3">
+        <label for="CategoryId" class="form-label"> گروه بندی</label>
+        
+        
+        <select asp-for="CategoryId">
+            @foreach(var item in _repository.Categories)
+            {
+                <option value=@item.Id>  @item.Name </option>
+            }
+        </select>
+    </div>
+    <input type="submit" class="btn btn-success" value="ثبت">
+    <a class="btn btn-light" asp-controller="Home" asp-action="Index">بازگشت به لیست</a>
+</form>

@@ -1,0 +1,13 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@namespace Exam2.Entities
+@model Product
+<div class="alert alert-danger">
+    <h4 class="alert-heading">حذف محصول!</h4>
+    <p>
+        آیا از حذف محصول <a asp-controller="Home" asp-action="Details" asp-route-id="@Model.Id" class="alert-link">@Model.Name</a> اطمینان دارید؟
+    </p>
+    <form asp-controller="Home" asp-action="DeleteProduct" method="post">
+        <input type="hidden" asp-for="Id"/>
+        <input type="submit" value="تایید"/>
+    </form>
+</div>

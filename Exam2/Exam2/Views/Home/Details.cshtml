@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@namespace Exam2.Entities
+@model Product
+
+<div class="card">
+    <h5 class="card-header">  مشاهده جزئیات محصول @Model.Name</h5>
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <label for="Id" class="form-label">شناسه کالا</label>
+        <input type="text" class="form-control" asp-for="Id" readonly>
+        <br/>
+        <label for="Price" class="form-label">قیمت کالا</label>
+        <input type="text" class="form-control" asp-for="Price">
+        <br/>
+        <label for="CreateDate" class="form-label">تاریخ تولید</label>
+        <input type="text" class="form-control" asp-for="CreateDate" >
+        <br/>
+        <label for="CategoryId" class="form-label">گروه بندی</label>
+        <input type="text" class="form-control" asp-for="CategoryId" >
+        <br/>
+        <label for="UserId" class="form-label">کاربر ثبت کننده</label>
+        <input type="text" class="form-control" asp-for="UserId" >
+        <br/>
+        <a class="btn btn-light" asp-controller="Home" asp-action="Index">بازگشت به لیست</a>
+    </div>
+        
+</div>
