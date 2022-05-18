@@ -1,0 +1,59 @@
+﻿@model Member
+
+<h2 class="mb-3">
+    افزودن عضو جدید
+</h2>
+<form asp-controller="Members" asp-action="create" method="post">
+    <div class="mb-3">
+        <label for="Id" class="form-label">شناسه</label>
+        <input type="text" class="form-control" asp-for="Id" disabled>
+    </div>
+    <div class="mb-3">
+        <label for="FirstName" class="form-label">نام </label>
+        <input type="text" class="form-control" asp-for="FirstName" >
+    </div>
+      
+    <div class="mb-3">
+        <label for="LastName" class="form-label">نام خانوادگی</label>
+        <input type="text" class="form-control" asp-for="LastName">
+    </div>
+    <div class="mb-3">
+        <label for="NationalCode" class="form-label">کد ملی</label>
+        <input type="text" class="form-control" asp-for="NationalCode" >
+    </div>
+    <div class="mb-3">
+        <label for="BirthDay" class="form-label">تاریخ تولد</label>
+        <input type="date" class="form-control" asp-for="BirthDay" >
+    </div>
+    <div class="mb-3">
+        <label for="MembershipType" class="form-label">نوع عضویت</label>
+        <select asp-for="MembershipType"class="form-select" aria-label="Default select example">
+            <option selected>یک نوع عضویت انتخاب کنید</option>
+            @foreach (MemberShipTypes MemType in (MemberShipTypes[])Enum.GetValues(typeof(MemberShipTypes)))
+            {
+                <option value=@((int)MemType)> @MemType </option>
+            }
+        </select>
+    </div>
+    <div class="mb-3">
+        <label for="PhoneNumber" class="form-label">شماره تماس</label>
+        <input type="text" class="form-control" asp-for="PhoneNumber" >
+    </div>
+    <div class="mb-3">
+        <label for="Gender" class="form-label">جنسیت</label>
+        <select asp-for="Gender"class="form-select" aria-label="Default select example">
+            <option selected>جنسیت را مشخص کنید</option>
+            @foreach (Genders gender in (Genders[])Enum.GetValues(typeof(Genders)))
+            {
+                <option value=@((int)gender)> @gender </option>
+            }
+        </select>
+    </div>
+    <div class="mb-3">
+        <label for="RegisterDate" class="form-label">تاریخ عضویت</label>
+        <input type="date" class="form-control" asp-for="RegisterDate" disabled>
+    </div>
+    
+    <input type="submit" class="btn btn-success" value="ثبت">
+    <a class="btn btn-light" asp-controller="Members" asp-action="Index">بازگشت به لیست</a>
+</form>

@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "لیست کتابخانه ها : ";
+}
+@model List<Library> 
+<div class="float-ent h2">
+    لیست کتابخانه ها
+</div>
+<div class="float-start">
+    <a class="btn btn-success" asp-controller="Libraries" asp-action="Create" >افزدون کتابخانه جدید</a>
+</div>
+<table class="table table-hover table-light">
+    <thead>
+    <tr>
+        <th>شناسه</th>
+        <th>نام</th>
+        <th>نام شهر</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach(Library i in Model)
+    {
+        <tr>
+            <td>@i.Id</td>
+            <td>@i.LibraryName</td>
+            <td>@i.CityId</td>
+        </tr> 
+    }
+    </tbody>
+</table>

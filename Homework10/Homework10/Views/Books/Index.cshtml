@@ -1,0 +1,32 @@
+﻿@using Homework10.Interfaces
+@{
+    ViewData["Title"] = "لیست کتابخانه ها : ";
+   
+}
+@model List<Book> 
+
+<div class="float-ent h2">
+    لیست کتاب ها
+</div>
+<div class="float-start">
+    <a class="btn btn-success" asp-controller="Books" asp-action="Create" >افزدون کتاب جدید</a>
+</div>
+<table class="table table-hover table-light">
+    <thead>
+    <tr>
+        <th>شناسه</th>
+        <th>نام</th>
+        <th>نام کتابخانه</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach(Book i in Model)
+    {
+        <tr>
+            <td>@i.Id</td>
+            <td>@i.BookName</td>
+            <td>@i.LibraryId</td>
+        </tr> 
+    }
+    </tbody>
+</table>

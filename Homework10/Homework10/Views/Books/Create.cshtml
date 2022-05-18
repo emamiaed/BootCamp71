@@ -1,0 +1,32 @@
+﻿@using Homework10.Interfaces
+@model Book
+@{
+    HomeworkDb _repository = new HomeworkDb();
+}
+<h2 class="mb-3">
+    افزودن کتاب جدید
+</h2>
+<form asp-controller="Books" asp-action="create" method="post">
+    <div class="mb-3">
+        <label for="Id" class="form-label">شناسه</label>
+        <input type="text" class="form-control" asp-for="Id" disabled>
+    </div>
+    <div class="mb-3">
+        <label for="BookName" class="form-label">نام کتاب </label>
+        <input type="text" class="form-control" asp-for="BookName" >
+    </div>
+    <div class="mb-3">
+        <label for="LibraryId" class="form-label">شهر</label>
+        <select asp-for="LibraryId" class="form-select" aria-label="Default select example">
+            <option selected>یک کتابخانه انتخاب کنید</option>
+            @foreach(var item in _repository.Libraries)
+            {
+                <option value=@item.Id>  @item.LibraryName </option>
+            }
+        </select>
+    </div>
+
+    
+    <input type="submit" class="btn btn-success" value="ثبت">
+    <a class="btn btn-light" asp-controller="Books" asp-action="Index">بازگشت به لیست</a>
+</form>

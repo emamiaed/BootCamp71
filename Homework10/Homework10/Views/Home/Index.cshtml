@@ -1,0 +1,36 @@
+﻿@using Homework10.Interfaces
+@{
+    ViewData["Title"] = "صفحه اصلی";
+    int conunter = 1;
+}
+@{
+    HomeworkDb _repository = new HomeworkDb();
+}
+<div class="text-center">
+    <h1 class="display-4">به سایت کتابخانه خوش آمدید</h1>
+</div>
+
+<table class="table table-hover table-light">
+    <thead>
+    <tr>
+        <th>ردیف</th>
+        <th>نام شهر</th>
+        <th>نام کتابخانه</th>
+        <th>اعضا</th>
+        <th>کتابهای امانت گرفته</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach(var i in _repository.Members)
+    {
+        <tr>
+            <td>@conunter</td>
+            <td>@i.FirstName</td>
+            <td>@i.LastName</td>
+            <td>@i.NationalCode</td>
+            <td>@i.BirthDay.Day/@i.BirthDay.Month/@i.BirthDay.Year</td>
+        </tr>
+        conunter++;
+    }
+    </tbody>
+</table>
